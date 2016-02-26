@@ -101,7 +101,7 @@ a:hover {
 }
 .btn-default {
 	font-size: 17px;
-	margin: 30px 0 10px;
+	margin: 10px 0 10px;
 	margin-right: 10px;
 	line-height: 20px;
 	padding: 15px 35px;
@@ -112,6 +112,7 @@ a:hover {
 	color: #3eb0f7;
 	border-radius: 100px;
 	font-weight:bold;
+	float: right;
 }
 
 .btn-default2 {
@@ -171,6 +172,7 @@ a:hover {
 	color: white;
 	border-radius: 4px;
 }
+
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
 	background: #1f96e0;
 	color: white
@@ -365,6 +367,7 @@ a:hover {
 	color: #333;
 	font-size: 1.2em;
 	height: 55px;
+	width: 50%;
 }
 .subscribe-form button {
 	border-radius: 0 4px 4px 0;
@@ -1078,24 +1081,45 @@ table.list tr {
 	padding:5px;
 }
 
+td.review {
+	color: #66ccff;
+}
+
+/*tbody.list-body td.review:hover {
+	background-color: #66ccff;
+	color: #fff;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+	cursor:pointer;
+}*/
+
+
+/*#review > tbody.list-body {
+	color: #66ccff;
+}*/
+
 tbody.list-body tr:hover {
-		background-color: #66ccff;
-		color: #fff;
-		-webkit-transition: all .8s ease;
-		transition: all .8s ease;
-		cursor:pointer;
+	background-color: #66ccff;
+	color: #fff;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+	cursor:pointer;
 }
 
 
 table.list th, table td {
 	padding:10px;
-	text-align:center;
+	text-align:left;
 }
 
 table.list th {
 	font-size:14px;
 	letter-spacing:1px;
 }
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -1113,7 +1137,7 @@ table.list th {
 		border-bottom:2px solid #ddd;
 	}
 
-	table.list td a {
+	table.list td {
 		display:block;
 		text-align:right;
 		font-size:13px;
@@ -1145,5 +1169,17 @@ table.list th {
 	padding: 3px;
 	cursor: pointer;
 	float: left;
+}
+
+.new-post {
+	float: left;
+}
+
+.search {
+	float: right;
+}
+
+.category {
+	margin-bottom: 5px;
 }
 

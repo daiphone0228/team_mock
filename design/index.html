@@ -3,13 +3,12 @@
 <head>
 
 <!-- /.website title -->
-<title>Nexseed Portal</title>
+<title>NexSeed Portal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="UTF-8">
 
 <!-- CSS Files -->
-<link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen">
-<link href="../asset/css/font-awesome.css" rel="stylesheet">
+<link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen"><link href="../asset/css/font-awesome.css" rel="stylesheet">
 <link href="../asset/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
 <link href="../asset/css/animate.css" rel="stylesheet" media="screen">
 <link href="../asset/css/owl.theme.css" rel="stylesheet">
@@ -53,9 +52,7 @@
 		</div>
 	</nav>
 </div>
-<!-- さとしさん担当 -->
 
-<!-- /.preloader -->
 <div id="preloader"></div>
 <div id="top"></div>
 
@@ -68,7 +65,7 @@
 				<div class="col-md-7">
 					<!-- /.main title -->
 						<h1 class="wow fadeInLeft">
-						Nexseed Portal Site<br>New Open!!
+						NexSeed Portal Site<br>New Open!!
 						</h1>
 
 					<!-- /.header paragraph -->
@@ -81,29 +78,6 @@
 						よろしくお願いします！</p>
 					</div>
 
-				</div> 
-				
-				<!-- /.signup form -->
-				<div class="col-md-5">
-				<!-- さとしさん担当 -->
-					<div class="signup-header wow fadeInUp">
-						<h3 class="form-title text-center">GET STARTED</h3>
-						<form class="form-header" action="index_regist.html" role="form" method="POST" id="#">
-						<input type="hidden" name="u" value="503bdae81fde8612ff4944435">
-						<input type="hidden" name="id" value="bfdba52708">
-							<div class="form-group">
-								<input class="form-control input-lg" name="MERGE1" id="name" type="text" placeholder="Email address" required>
-							</div>
-							<div class="form-group">
-								<input class="form-control input-lg" name="MERGE0" id="email" type="email" placeholder="Password" required>
-							</div>
-							<div class="form-group last">
-								<input type="submit" class="btn btn-warning btn-block btn-lg" value="Register" style="margin-left:5px; float:left;">
- 								<input type="submit" class="btn btn-warning btn-block btn-lg" value="Login" style="margin-left:5px; float:left;">
-							</div>
-						</form>
-					</div>
-				<!-- さとしさん担当終わり -->
 				</div>
 			</div>
 		</div> 
@@ -119,10 +93,16 @@
 		<div class="row">
 			<!-- /.intro content -->
 			<form method="post" action="" role="form" name="search">
-				<div class="col-md-6 wow slideInRight">
-					<h2>情報を探す</h2>
-					<div class="btn-section dropdown">
-						<select class="" name="category">
+				<div class="new-post col-md-6 wow slideInRight">
+					<h2>Let's Post Your Idea!</h2>
+					<div class="download-cta wow fadeInLeft">
+					<a class="btn-secondary" href="add.html">New Post</a>
+					</div>
+				</div>
+				<div class="search col-md-6 wow slideInRight">
+					<h2>Search information</h2>
+					<div class="btn-section dropdown fadeInLeft">
+						<select class="category" name="category">
 							<option value="1">Category</option>
 							<option value="2">レストラン</option>
 							<option value="3">スーパー</option>
@@ -141,22 +121,8 @@
 <!-- /.feature section -->
 <div id="feature">
 	<div class="container">
-		<div class="row">
-			<!-- /.feature 1 -->
-			<div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-				<div class="download-cta wow fadeInLeft">
-					<a class="btn-secondary" href="add.html">新規投稿</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- /.testimonial section -->
-<div id="testi">
-	<div class="container">
 		<div class="text-center">
-			<h2 class="wow fadeInLeft">最新の投稿</h2>
+			<h2 class="wow fadeInLeft">Latest Post</h2>
 			<div class="title-line wow fadeInRight"></div>
 		</div>
 		<div class="row">
@@ -168,34 +134,34 @@
 							<table class="list">
 								<thead>
 									<tr>
-										<th>店名</th>
-										<th>評価</th>
-										<th>コメント</th>
+										<th>Shop</th>
+										<th>Review</th>
+										<th>Comment</th>
 									</tr>
 								</thead>
 								<tbody class="list-body">
 									<tr data-href="show.html">
-										<td data-label="shopname">Bo's coffee</td>
-										<td data-label="point">★★★</td>
+										<td data-label="shop">Bo's coffee</td>
+										<td class="review" data-label="review">★★★</td>
 										<td data-label="comment">コーヒーは美味しいけどwifiは普通</td>
 									</tr>
 									<tr data-href="show.html">
-										<td data-label="shopname">STARBUCKS COFFEE</td>
-										<td data-label="point">★★★★★</td>
+										<td data-label="shop">STARBUCKS COFFEE</td>
+										<td class="review" data-label="review">★★★★★</td>
 										<td data-label="comment">コーヒーは美味しい、wifiは普通、サービスは最高</td>
 									</tr>
 									<tr data-href="show.html">
-										<td data-label="shopname">coffee dream</td>
-										<td data-label="point">★★★★★</td>
+										<td data-label="shop">coffee dream</td>
+										<td class="review" data-label="review">★★★★★</td>
 										<td data-label="comment">コーヒーは普通だけどwifiは爆速</td>
 									</tr>
 									<tr data-href="show.html">
-										<td data-label="shopname">xxxxxxxx</td>
+										<td data-label="shop">xxxxxxxx</td>
 										<td data-label="point">★</td>
 										<td data-label="comment">good</td>
 									</tr>
 									<tr data-href="show.html">
-										<td data-label="shopname">xxxxxxxx</td>
+										<td data-label="shop">xxxxxxxx</td>
 										<td data-label="point">★</td>
 										<td data-label="comment">good</td>
 									</tr>
@@ -209,10 +175,16 @@
 					<a href="" class="btn-default" style="float:right">前</a>
 				</div>
 			</div>	
-		</div>	
+		</div>
 	</div>
 </div>
-<!-- /.footer -->
+
+<!-- /.testimonial section -->
+<!-- <div id="testi">
+	<div class="container">	
+	</div>
+</div>
+ --><!-- /.footer -->
 <footer id="footer">
 	<div class="container">
 		<div class="col-sm-4 col-sm-offset-4">
