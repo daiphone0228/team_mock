@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<!-- /.website title -->
+<title>Nexseed Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta charset="UTF-8">
+
+<!-- CSS Files -->
+<link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="../asset/css/font-awesome.min.css" rel="stylesheet">
+<link href="../asset/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+<link href="../asset/css/animate.css" rel="stylesheet" media="screen">
+<link href="../asset/css/owl.theme.css" rel="stylesheet">
+<link href="../asset/css/owl.carousel.css" rel="stylesheet">
+
+<!-- Colors -->
+<link href="../asset/css/css-index.css" rel="stylesheet" media="screen">
+<!-- <link href="css/css-index-green.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/css-index-purple.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/css-index-red.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/css-index-orange.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/css-index-yellow.css" rel="stylesheet" media="screen"> -->
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
+
+</head>
+  
+<body data-spy="scroll" data-target="#navbar-scroll">
+  <!-- さとしさん担当 -->
+<div id="menu">
+  <nav class="navbar-wrapper navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
+        <a class="navbar-brand site-name" href="index.html"><img src="../asset/images/nex.png" alt="logo"></a>
+        </div>
+      <!-- NAVIGATION -->
+        <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="join/index.html">Logout</a></li>
+        </ul>
+        </div>
+    </div>
+  </nav>
+</div>
+
+<div id="contact">
+  <div class="contact fullscreen parallax" style="background-image:url('../asset/images/top_image.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+    <div class="overlay">
+      <div class="container">
+        <div class="row contact-row">
+
+          <!-- /.contact form -->
+          <div class="col-sm-7 contact-right">
+            <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
+              <!-- <div class="form-group">
+              <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
+              </div> -->
+              <div class="form-group">
+              <select name="category" style="width: 665px"> 
+              <option value="category">カテゴリ</option> 
+              <option value="restaurant" selected>レストラン</option>
+              <option value="shop">雑貨屋・お土産屋</option>
+              <option value="hobby">遊び</option>
+              <option value="life">生活用品</option>
+              <option value="beauty">ヘアサロン・スパ</option>
+              </select>
+              </div>
+              <div class="form-group">
+              <input type="text" name="storename" id="storename" class="form-control wow fadeInUp" placeholder="storename" value="バリカタラーメン" required/>
+              </div>
+              <!-- <label class="col-sm-4 control-label">location</label> -->
+              <div class="form-group">
+              <input type="text" name="location" id="location" class="form-control wow fadeInUp" placeholder="location" required/>
+              </div>
+              <div class="form-group">
+                   <!--  <label class="col-sm-4 control-label">photo</label> -->
+                    <!-- <div class="col-sm-7 contact-right"> -->
+                    <input type="file" name="photo" class="form-control" style="width: 665px">
+              </div>
+
+          </div>
+          <div class="col-sm-7 contact-right">
+                  <span>評価</span>
+                    <input type="radio" name="point" value="1">１
+                    <input type="radio" name="point" value="2">２
+                    <input type="radio" name="point" value="3">３
+                    <input type="radio" name="point" value="4">４
+                    <input type="radio" name="point" value="5">５
+<!--           </div>
+          <div class="col-sm-7 contact-right"> -->
+
+              <div class="form-group">
+              <textarea name="comment" rows="10" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
+              </div>
+
+              <div class="form-group">
+              <div class="col-sm-4 contact-right">
+              <input type="submit" name="submit" value="戻る" class="btn-secondary" />
+              </div>
+              <div class="col-sm-4 contact-left">
+              <input type="submit" name="submit" value="確認" class="btn-secondary" />
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /.footer -->
+<footer id="footer">
+  <div class="container">
+    <div class="col-sm-4 col-sm-offset-4">
+      <!-- /.social links -->
+        <div class="social text-center">
+          <ul>
+            <li><a class="wow fadeInUp" href="https://twitter.com/NexSeed_Cebu?lang=ja" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="wow fadeInUp" href="https://www.facebook.com/NexSeed/?ref=br_rs" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+        </div>  
+      <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Nexseed Portal 2016</div>
+      <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
+    </div>  
+  </div>  
+</footer>
+  
+  <!-- /.javascript files -->
+    <script src="../asset/js/jquery.js"></script>
+    <script src="../asset/js/bootstrap.min.js"></script>
+    <script src="../asset/js/custom.js"></script>
+    <script src="../asset/js/jquery.sticky.js"></script>
+  <script src="../asset/js/wow.min.js"></script>
+  <script src="../asset/js/owl.carousel.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  </body>
+</html>
