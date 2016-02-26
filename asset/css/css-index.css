@@ -601,10 +601,26 @@ a:hover {
 	font-size: 1.2em;
 	height: 55px;
 }
+/*確認ボタン*/
 #contact-form .btn {
 	height: 55px;
 	width: 100%;
 	background-color: #3eb0f7;
+	color: #ffffff;
+	font-size: 17px !important;
+	line-height: 18px;
+	padding: 0 33px;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+/*戻るボタン*/
+#contact-form .btn01 {
+	height: 55px;
+	width: 100%;
+	background-color: #e6e6fa;
 	color: #ffffff;
 	font-size: 17px !important;
 	line-height: 18px;
@@ -1145,5 +1161,20 @@ table.list th {
 	padding: 3px;
 	cursor: pointer;
 	float: left;
+}
+
+.star-fav {
+  margin: 100px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #f2c820;
+    display: block;
+    height: 0;
+    width: 0;
+    position: relative;
+    animation:
+        anim-star-fav-rotate 30s linear infinite,
+        anim-star-fav-opacity 1s linear infinite
+    ;
 }
 
