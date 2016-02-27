@@ -3,7 +3,7 @@
 <head>
 
 <!-- /.website title -->
-<title>Nexseed Portal</title>
+<title>NexSeed Portal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="UTF-8">
 
@@ -53,26 +53,27 @@
 </div>
 
 <div id="contact">
-  <div class="contact fullscreen parallax" style="background-image:url('../asset/images/top_image.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+  <div class="fullscreen landing parallax" style="background-image:url('../asset/images/show_image.jpg');" data-img-width="2400" data-img-height="1600" data-diff="100">
     <div class="overlay">
       <div class="container">
         <div class="row contact-row">
 
           <!-- /.contact form -->
           <div class="col-sm-7 contact-right">
-            <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
+            <form method="POST" id="contact-form" class="form-horizontal" action="edit_check.html" onSubmit="alert('Thank you for your feedback!');">
               <!-- <div class="form-group">
               <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
               </div> -->
-              <div class="form-group">
-              <select name="category" style="width: 665px"> 
-              <option value="category">カテゴリ</option> 
-              <option value="restaurant" selected>レストラン</option>
-              <option value="shop">雑貨屋・お土産屋</option>
-              <option value="hobby">遊び</option>
-              <option value="life">生活用品</option>
-              <option value="beauty">ヘアサロン・スパ</option>
-              </select>
+              <!-- <div class="form-group"> -->
+              <div class="btn-section dropdown fadeInLeft">
+                <select name="category" class="category">
+                <option value="category">カテゴリ</option>
+                <option value="restaurant" selected>レストラン</option>
+                <option value="shop">雑貨屋・お土産屋</option>
+                <option value="hobby">遊び</option>
+                <option value="life">生活用品</option>
+                <option value="beauty">ヘアサロン・スパ</option>
+                </select>
               </div>
               <div class="form-group">
               <input type="text" name="storename" id="storename" class="form-control wow fadeInUp" placeholder="storename" value="バリカタラーメン" required/>
@@ -89,26 +90,22 @@
 
           </div>
           <div class="col-sm-7 contact-right">
-                  <span>評価</span>
-                    <input type="radio" name="point" value="1">１
-                    <input type="radio" name="point" value="2">２
-                    <input type="radio" name="point" value="3">３
-                    <input type="radio" name="point" value="4">４
-                    <input type="radio" name="point" value="5">５
-<!--           </div>
-          <div class="col-sm-7 contact-right"> -->
+              <div style="color:yellow">
+                  <span>review: </span>
+                  <input type="radio" name="point" value="1">１
+                  <input type="radio" name="point" value="2">２
+                  <input type="radio" name="point" value="3" checked>３
+                  <input type="radio" name="point" value="4">４
+                  <input type="radio" name="point" value="5">５
+                </div>
 
               <div class="form-group">
               <textarea name="comment" rows="10" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
               </div>
 
               <div class="form-group">
-              <div class="col-sm-4 contact-right">
-              <input type="submit" name="submit" value="戻る" class="btn-secondary" />
-              </div>
-              <div class="col-sm-4 contact-left">
-              <input type="submit" name="submit" value="確認" class="btn-secondary" />
-              </div>
+              <a href="index.html" class="btn btn-success wow fadeInUp" style="background:white; color:blue;">back</a>　
+                <input type="submit" name="submit" value="check" class="btn btn-success wow fadeInUp" style="background:blue;"/>
               </div>
             </form>
           </div>
@@ -128,13 +125,13 @@
             <li><a class="wow fadeInUp" href="https://twitter.com/NexSeed_Cebu?lang=ja" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a class="wow fadeInUp" href="https://www.facebook.com/NexSeed/?ref=br_rs" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
           </ul>
-        </div>  
-      <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Nexseed Portal 2016</div>
+        </div>
+      <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright NexSeed Portal  since 2016</div>
       <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
-    </div>  
-  </div>  
+    </div>
+  </div>
 </footer>
-  
+
   <!-- /.javascript files -->
     <script src="../asset/js/jquery.js"></script>
     <script src="../asset/js/bootstrap.min.js"></script>
