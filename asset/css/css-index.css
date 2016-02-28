@@ -129,6 +129,33 @@ a:hover {
 	border-radius: 5px;
 }
 
+.btn-default3 {
+	font-size: 17px;
+ 	margin: 10px 0 10px;
+ 	margin-right: 10px;
+ 	line-height: 20px;
+ 	padding: 7px 14px;
+ 	height: 40px;
+ 	border: 2px solid #3eb0f7;
+ 	background: blue;
+ 	transition: all 0.4s;
+	color: white;
+	border-radius: 5px;
+}
+
+.btn-default4 {
+	font-size: 17px;
+ 	margin: 10px 0 10px;
+ 	margin-right: 10px;
+ 	line-height: 20px;
+ 	padding: 7px 14px;
+ 	height: 40px;
+ 	border: 2px solid #3eb0f7;
+ 	background: white;
+ 	transition: all 0.4s;
+	color: blue;
+	border-radius: 5px;
+}
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
 	border: 2px solid #3eb0f7;
