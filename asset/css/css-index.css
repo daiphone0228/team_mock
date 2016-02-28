@@ -1081,6 +1081,10 @@ table.list tr {
 	padding:5px;
 }
 
+/*table.list thead:nth-child(1) {
+	background-color: #fff;
+}*/
+
 td.review {
 	color: #ffff00;
 }
