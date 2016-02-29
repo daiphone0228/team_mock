@@ -44,16 +44,14 @@
         </div>
       <!-- NAVIGATION -->
         <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
-        <ul class="nav navbar-nav">
-          <li><a href="join/index.html">Logout</a></li>
-        </ul>
+        <div class="btn-section"><a href="join/index.html" button type="button" class="btn-default2">Logout</a></div>
         </div>
     </div>
   </nav>
 </div>
 
 <div id="contact">
-  <div class="fullscreen landing parallax" style="background-image:url('../asset/images/Ceb_8835.jpg');" data-img-width="2400" data-img-height="1600" data-diff="100">
+  <div class="fullscreen contact parallax" style="background-image:url('../asset/images/Ceb_8835.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
     <div class="overlay">
       <div class="container">
         <div class="row contact-row">
@@ -61,10 +59,7 @@
           <!-- /.contact form -->
           <div class="col-sm-7 contact-right">
             <form method="POST" id="contact-form" class="form-horizontal" action="edit_check.html" onSubmit="alert('Thank you for your feedback!');">
-              <!-- <div class="form-group">
-              <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
-              </div> -->
-              <!-- <div class="form-group"> -->
+
               <div class="btn-section dropdown fadeInLeft">
                 <select name="category" class="category">
                 <option value="category">カテゴリ</option>
@@ -74,33 +69,38 @@
                 <option value="life">生活用品</option>
                 <option value="beauty">ヘアサロン・スパ</option>
                 </select>
-              </div>
-              <div class="form-group">
-              <input type="text" name="storename" id="storename" class="form-control wow fadeInUp" placeholder="storename" value="バリカタラーメン" required/>
+              </div><!-- 
+              <div class="form-group input-lg privacy"> -->
+              <div class="category">
+              <input type="text" name="storename" id="storename" class="form-control input-lg" placeholder="storename" value="バリカタラーメン" required/>
               </div>
               <!-- <label class="col-sm-4 control-label">location</label> -->
-              <div class="form-group">
-              <input type="text" name="location" id="location" class="form-control wow fadeInUp" placeholder="location" required/>
+              <!-- 
+              <div class="form-group input-lg privacy"> -->
+              <div class="category">
+              <input type="text" name="location" id="location" class="form-control input-lg" placeholder="location" required/>
               </div>
-              <div class="form-group">
+              <!-- 
+              <div class="form-group input-lg privacy"> -->
+              <div class="category">
                    <!--  <label class="col-sm-4 control-label">photo</label> -->
                     <!-- <div class="col-sm-7 contact-right"> -->
-                    <input type="file" name="photo" class="form-control" style="width: 665px">
+                    <input type="file" name="photo" class="form-control input-lg" style="width: 400px">
               </div>
 
           </div>
           <div class="col-sm-7 contact-right">
-              <div style="color:white">
+              <div style="color:white; font-size:18px">
                   <span>review: </span>
                   <input type="radio" name="point" value="1">１
                   <input type="radio" name="point" value="2">２
                   <input type="radio" name="point" value="3" checked>３
                   <input type="radio" name="point" value="4">４
                   <input type="radio" name="point" value="5">５
-                </div>
+              </div>
 
               <div class="form-group">
-              <textarea name="comment" rows="10" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
+              <textarea name="comment" rows="4" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
               </div>
 
               <div class="form-group">
