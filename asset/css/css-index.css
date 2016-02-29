@@ -684,6 +684,7 @@ a:hover {
 	color: #333;
 	font-size: 1.2em;
 	height: 55px;
+	margin: 30px;
 }
 /*確認ボタン*/
 #contact-form .btn {
@@ -711,9 +712,11 @@ a:hover {
 	padding: 0 33px;
 	border: none;
 	border-radius: 0;
-	margin: 0;
+	margin: 0px;
+	margin-right:10px;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
+
 }
 #contact-form .btn:hover {
 	background-color: #1f96e0;
@@ -1281,6 +1284,23 @@ table.list td {
 	padding: 3px;
 	cursor: pointer;
 	float: left;
+
+
+}
+.dropdown01 select {
+	position: relative;
+	width: 50%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #c0c0c0;
+	padding: 3px;
+	cursor: pointer;
+	float: left;
+	margin: 30px;
+	
+
+
 }
 
 .new-post {
