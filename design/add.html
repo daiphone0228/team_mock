@@ -30,13 +30,13 @@
 </div>
 
 <div id="contact">
-	<div class="contact fullscreen parallax" style="background-image:url('../asset/images/top_image.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+	<div class="contact fullscreen parallax" style="background-image:url('../asset/images/aaa.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
 		<div class="overlay">
 			<div class="container">
 				<div class="row contact-row">
 					<!-- /.contact form -->
 					<div class="col-sm-7 contact-right">
-						<form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
+						<form method="POST" id="contact-form" class="form-horizontal" action="" onSubmit="alert('Thank you for your feedback!');">
 							<!-- カテゴリ -->
 						<div class="btn-section dropdown">
 						 <select class="" name="category">
@@ -48,19 +48,20 @@
 						</div>
 						 </select>
 							<!-- 店の名前 -->
-						<div class="form-group">
+						<div class="category">
 							<input type="text" name="store name" placeholder="store name" class="form-control input-lg" value="">
 						</div>
 							<!-- 場所の写真 -->
-						<div class="form-group">
+						<div class="category">
 							<input type="text" name="location" placeholder="location" class="form-control input-lg" value="">
 						</div>
 							<!-- 写真 -->
-						<div class="form-group">
+						<div class="category">
 				           	<input type="file" name="photo" placeholder="photo" class="form-control input-lg" value="">
 				        </div>
 				          </form>
 								<!-- 評価 -->
+						<!-- <tr class="sample1"> -->
 						<div style="display:inline-flex">
 						 <span>review</span>
 							<form><input type="radio" name="review" value="1">１</form>
@@ -69,13 +70,15 @@
 							<form><input type="radio" name="review" value="４">４</form>
 							<form><input type="radio" name="review" value="５">５</form>
 						</div>
+						<!-- </tr> -->
 							 <!-- コメント -->
-						<div class="form-group">
+
+						<div class="category">
 							<input type="text" name="comment" placeholder="comment" class="form-control input-lg" value="">
 						</div>
 							<!-- 戻るボタン -->
 						<div class="col-sm-4 contact-right">
-							<input type="submit" name="submit" value="back" class="btn01 btn-success wow fadeInUp" />
+							<input type="submit" name="submit" value="back"class="btn01 btn-success wow fadeInUp" />
 						</div>
 							<!-- 確認ボタン -->
 						<div class="col-sm-4 contact-left">
@@ -88,6 +91,12 @@
 		</div>
 	</div>
 </div>
+<div class="social text-center">
+	<ul>
+		<li><a class="wow fadeInUp" href="https://twitter.com/NexSeed_Cebu?lang=ja" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		<li><a class="wow fadeInUp" href="https://www.facebook.com/NexSeed/?ref=br_rs" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
+	</ul>
+</div>	
 <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Nexseed Portal 2016</div>
 <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
 
