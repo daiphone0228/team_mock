@@ -128,6 +128,33 @@ a:hover {
 	color: #3eb0f7;
 	border-radius: 5px;
 }
+.btn-default3 {
+	font-size: 17px;
+ 	margin: 10px 0 10px;
+ 	margin-right: 10px;
+ 	line-height: 20px;
+ 	padding: 7px 14px;
+ 	height: 40px;
+ 	border: 2px solid #3eb0f7;
+ 	background: blue;
+ 	transition: all 0.4s;
+	color: white;
+	border-radius: 5px;
+}
+
+.btn-default4 {
+	font-size: 17px;
+ 	margin: 10px 0 10px;
+ 	margin-right: 10px;
+ 	line-height: 20px;
+ 	padding: 7px 14px;
+ 	height: 40px;
+ 	border: 2px solid #3eb0f7;
+ 	background: white;
+ 	transition: all 0.4s;
+	color: blue;
+	border-radius: 5px;
+}
 
 .btn-default3 {
 	font-size: 17px;
@@ -651,10 +678,26 @@ a:hover {
 	font-size: 1.2em;
 	height: 55px;
 }
+/*確認ボタン*/
 #contact-form .btn {
 	height: 55px;
 	width: 100%;
 	background-color: #3eb0f7;
+	color: #ffffff;
+	font-size: 17px !important;
+	line-height: 18px;
+	padding: 0 33px;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+/*戻るボタン*/
+#contact-form .btn01 {
+	height: 55px;
+	width: 100%;
+	background-color: #e6e6fa;
 	color: #ffffff;
 	font-size: 17px !important;
 	line-height: 18px;
