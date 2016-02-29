@@ -61,7 +61,7 @@
 
             <form method="POST" id="contact-form" class="form-horizontal" action="edit_check.html">
 
-              <div class="btn-section dropdown fadeInLeft">
+              <div class="btn-section dropdown01">
                 <select name="category" class="category">
                 <option value="category">カテゴリ</option>
                 <option value="restaurant" selected>レストラン</option>
@@ -70,46 +70,42 @@
                 <option value="life">生活用品</option>
                 <option value="beauty">ヘアサロン・スパ</option>
                 </select>
-              </div><!-- 
-              <div class="form-group input-lg privacy"> -->
+              </div>
+
               <div class="category">
               <input type="text" name="storename" id="storename" class="form-control input-lg" placeholder="Store name" value="バリカタラーメン" required/>
               </div>
-              <!-- <label class="col-sm-4 control-label">location</label> -->
-              <!-- 
-              <div class="form-group input-lg privacy"> -->
+
               <div class="category">
               <input type="text" name="location" id="location" class="form-control input-lg" placeholder="Location" required/>
               </div>
-              <!-- 
-              <div class="form-group input-lg privacy"> -->
+
               <div class="category">
-                   <!--  <label class="col-sm-4 control-label">photo</label> -->
-                    <!-- <div class="col-sm-7 contact-right"> -->
                     <input type="file" name="photo" class="form-control input-lg" style="width: 400px">
               </div>
 
-            </div>
-            <div class="col-sm-7 contact-right">
-              <div class="category" style="font-size:18px">
-                  <span>Review : </span>
-                  <input type="radio" name="point" value="1">１
-                  <input type="radio" name="point" value="2">２
-                  <input type="radio" name="point" value="3" checked>３
-                  <input type="radio" name="point" value="4">４
-                  <input type="radio" name="point" value="5">５
+              <div style="font-size:18px">
+                <span>　　Review:</span>
+                <p style="display:inline-flex; width:200px;">
+                    <input type="radio" name="point" value="1">１
+                    <input type="radio" name="point" value="2">２
+                    <input type="radio" name="point" value="3" checked>３
+                    <input type="radio" name="point" value="4">４
+                    <input type="radio" name="point" value="5">５
+                </p>
               </div>
 
               <div class="category">
               <textarea name="comment" rows="4" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="Comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
               </div>
-            <div class="col-sm-4 contact-right">
-              <input type="submit" name="submit" value="Back" class="btn01 btn-success wow fadeInUp" />
-            </div>
-              <!-- 確認ボタン -->
-            <div class="col-sm-4 contact-left">
-              <input type="submit" name="submit" value="Edit" class="btn btn-success wow fadeInUp" />
-            </div>
+
+              <div class="col-sm-4 contact-right">
+                <input type="submit" name="submit" value="Back" class="btn01 wow fadeInUp" />
+              </div>
+                <!-- 確認ボタン -->
+              <div class="col-sm-4 contact-left">
+                <input type="submit" name="submit" value="Edit" class="btn wow fadeInUp" />
+              </div>
             </form>
           </div>
         </div>
