@@ -1313,11 +1313,11 @@ table.list td {
 
 .category {
 	margin-bottom: 5px;
-	/* border: 10px;
-	margin: 10px 10px 10px 10px;
-}*/
-/*.sample1{
-	line-height:100px;
-}*/
+}
+.aaa{
+	letter-spacing: 0.5em;
+	float: left;
+}
+
 
 
