@@ -11,7 +11,7 @@
 <link href="../asset/css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="../asset/css/font-awesome.min.css" rel="stylesheet">
 <link href="../asset/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-<link href="../asset/css/animate.css" rel="stylesheet" media="screen">
+<!-- <link href="../asset/css/animate.css" rel="stylesheet" media="screen"> -->
 <link href="../asset/css/owl.theme.css" rel="stylesheet">
 <link href="../asset/css/owl.carousel.css" rel="stylesheet">
 
@@ -28,7 +28,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar-scroll">
+<!-- <body data-spy="scroll" data-target="#navbar-scroll"> -->
+<body>
   <!-- さとしさん担当 -->
 <div id="menu">
   <nav class="navbar-wrapper navbar-default" role="navigation">
@@ -51,14 +52,14 @@
 </div>
 
 <div id="contact">
-  <div class="fullscreen contact parallax" style="background-image:url('../asset/images/Ceb_8835.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
-    <div class="overlay">
+  <div class="contact fullscreen parallax" style="background-image:url('../asset/images/aaa.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+    <div class="overlay02">
       <div class="container">
         <div class="row contact-row">
-
           <!-- /.contact form -->
           <div class="col-sm-7 contact-right">
-            <form method="POST" id="contact-form" class="form-horizontal" action="edit_check.html" onSubmit="alert('Thank you for your feedback!');">
+
+            <form method="POST" id="contact-form" class="form-horizontal" action="edit_check.html">
 
               <div class="btn-section dropdown fadeInLeft">
                 <select name="category" class="category">
@@ -72,13 +73,13 @@
               </div><!-- 
               <div class="form-group input-lg privacy"> -->
               <div class="category">
-              <input type="text" name="storename" id="storename" class="form-control input-lg" placeholder="storename" value="バリカタラーメン" required/>
+              <input type="text" name="storename" id="storename" class="form-control input-lg" placeholder="Store name" value="バリカタラーメン" required/>
               </div>
               <!-- <label class="col-sm-4 control-label">location</label> -->
               <!-- 
               <div class="form-group input-lg privacy"> -->
               <div class="category">
-              <input type="text" name="location" id="location" class="form-control input-lg" placeholder="location" required/>
+              <input type="text" name="location" id="location" class="form-control input-lg" placeholder="Location" required/>
               </div>
               <!-- 
               <div class="form-group input-lg privacy"> -->
@@ -88,10 +89,10 @@
                     <input type="file" name="photo" class="form-control input-lg" style="width: 400px">
               </div>
 
-          </div>
-          <div class="col-sm-7 contact-right">
-              <div style="color:white; font-size:18px">
-                  <span>review: </span>
+            </div>
+            <div class="col-sm-7 contact-right">
+              <div class="category" style="font-size:18px">
+                  <span>Review : </span>
                   <input type="radio" name="point" value="1">１
                   <input type="radio" name="point" value="2">２
                   <input type="radio" name="point" value="3" checked>３
@@ -99,14 +100,16 @@
                   <input type="radio" name="point" value="5">５
               </div>
 
-              <div class="form-group">
-              <textarea name="comment" rows="4" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
+              <div class="category">
+              <textarea name="comment" rows="4" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="Comment" required>懐かしい日本風ラーメンを食べられて良かったけど、値段が微妙。</textarea>
               </div>
-
-              <div class="form-group">
-              <a href="index.html" class="btn btn-success wow fadeInUp btn-default3">back</a>
-                <input type="submit" name="submit" value="check" class="btn btn-success wow fadeInUp btn-default4"/>
-              </div>
+            <div class="col-sm-4 contact-right">
+              <input type="submit" name="submit" value="Back" class="btn01 btn-success wow fadeInUp" />
+            </div>
+              <!-- 確認ボタン -->
+            <div class="col-sm-4 contact-left">
+              <input type="submit" name="submit" value="Edit" class="btn btn-success wow fadeInUp" />
+            </div>
             </form>
           </div>
         </div>
@@ -126,7 +129,7 @@
             <li><a class="wow fadeInUp" href="https://www.facebook.com/NexSeed/?ref=br_rs" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
           </ul>
         </div>
-      <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright NexSeed Portal  since 2016</div>
+      <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright NexSeed Portal since 2016</div>
       <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
     </div>
   </div>
