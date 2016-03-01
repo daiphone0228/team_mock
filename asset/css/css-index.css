@@ -671,6 +671,7 @@ a:hover {
 	margin: 0px;
 	margin-right:10px;
 	border: 2px solid #3eb0f7;
+	margin-left: 15px;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 
@@ -1271,6 +1272,19 @@ table.list td {
 
 .category {
 	margin-bottom: 5px;
+}
+.abc{
+	font-size:18px;
+	margin-left:30px;
+}
+.abc01{
+	display:inline-flex; 
+	width:200px;
+}
+.map01{
+	width:200px; height:200px;
+	margin-left:30px;
+
 }
 /*.Reviewradio{
 	display:inline-flex; 
