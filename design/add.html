@@ -33,7 +33,7 @@
 </div>
 
 <div id="contact">
-	<div class="contact fullscreen parallax" style="background-image:url('../asset/images/aaa.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+	<div class="contact fullscreen parallax" >
 		<div class="overlay02">
 			<div class="container">
 				<div class="row contact-row">
@@ -57,26 +57,33 @@
 							<!-- 場所の写真 -->
 						<div class="category">
 							<input type="text" name="location" placeholder="location" class="form-control input-lg" value="">
-						</div>
 							<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     						<script type="text/javascript" src="js/jquery.js"></script>
    							<script type="text/javascript" src="js/map.js"></script>
    							<div id="map" style="width:200px; height:200px"></div>
+						</div>
+						<!-- <div align="right" style="float: right">
+							<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    						<script type="text/javascript" src="js/jquery.js"></script>
+   							<script type="text/javascript" src="js/map.js"></script>
+   							<div id="map" style="width:200px; height:200px"></div>
+   						</div> -->
 							<!-- 写真 -->
 						<div class="category">
 				           	<input type="file" name="photo" placeholder="photo" class="form-control input-lg" value="">
 				        </div>
 				          </form>
 								<!-- 評価 -->
-						<!-- <tr class="sample1"> -->
-						<div style="display:inline-flex">
-						 <span>Review</span>
-							<form><input type="radio" name="Review" value="1">１</form>
-							<form><input type="radio" name="Review" value="２">２</form>
-							<form><input type="radio" name="Review" value="３">３</form>
-							<form><input type="radio" name="Review" value="４">４</form>
-							<form><input type="radio" name="Review" value="５">５</form>
-						</div>
+						<div style="font-size:18px">
+                		<span>　　Review:</span>
+                			<p style="display:inline-flex; width:200px">
+                   			<input type="radio" name="point" value="1">１
+                    		<input type="radio" name="point" value="2">２
+                    		<input type="radio" name="point" value="3" checked>３
+                    		<input type="radio" name="point" value="4">４
+                    		<input type="radio" name="point" value="5">５
+                			</p>
+              			</div>
 						<!-- </tr> -->
 							 <!-- コメント -->
 
