@@ -1345,12 +1345,3 @@ table.list td {
 .fa-glay {
 	color: #888888;
 }
-
-/*
-	ラジオボタンで使用
-*/
-.radio1 {
-	font-size:18px;
-	display:inline-flex;
-	width:200px;
-}
