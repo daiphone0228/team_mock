@@ -191,6 +191,11 @@ a:hover {
 	border-radius: 5px;
 }
 
+.checkbox-inline {
+	color: #ffffff;
+	margin-bottom: 5px; 
+}
+
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
 	border: 2px solid #3eb0f7;
 	background: #3eb0f7;
@@ -284,7 +289,7 @@ a:hover {
 	border-radius: 4px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 75px;
+	padding-bottom: 100px;
 }
 .signup-header h3{
 	padding: 20px 0 10px;
