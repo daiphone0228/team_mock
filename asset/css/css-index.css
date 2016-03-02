@@ -1287,7 +1287,7 @@ table.list td {
 	margin-left:30px;
 }
 .insert_box{
-	font-size:18px;
+	font-size:18px !important;
     font-family: inherit;
     font: inherit;
     position: relative;
